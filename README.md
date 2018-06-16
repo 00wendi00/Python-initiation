@@ -24,7 +24,7 @@ test_module         module
 
 test_more           1.特殊方法, 2.单语句块, 3.列表综合, 4.可变参数列表-- *args接收元组列表, **args接收字典 , 5.lambda表达式  6.exec , eval 语句
 
-test_object         对象和类 , self, __init__,  类的变量和对象的变量 -- 类属性与实例属性
+test_object         对象和类 , self, __init__,  类的变量和对象的变量 -- 类属性与实例属性 . 类的私有方法 . 单下划线、双下划线、头尾双下划线说明
 
 test_object1        类与对象的变量 ~    self. 为属性参考, __privatevar修饰的为私有变量
 
