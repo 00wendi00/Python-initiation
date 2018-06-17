@@ -6,7 +6,8 @@
 # @Desc  :  更多内容 : 1.特殊方法, 2.单语句块, 3.列表综合,
 # 4.可变参数列表-- *args接收元组列表, **args接收字典
 # 5.lambda表达式
-# 6.exec , eval 语句
+# 6.exec执行语句 , eval执行语句
+# 7.repr函数和反引号
 import os
 
 listone = [2, 3, 4]
@@ -43,6 +44,6 @@ print(mylist)
 
 k = []
 k.append('item')
-repr(k)
+repr(k)  # repr函数和反引号用来获取对象的可打印的表示形式。可以通过定义类的__repr__方法来控制你的对象在被repr函数调用的时候返回的内容
 print(k)
 print(os.sep)
