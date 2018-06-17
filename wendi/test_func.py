@@ -68,9 +68,11 @@ def printMax(x, y):
 
 printMax(3, 5)
 print(printMax.__doc__)
+print('''我"好'的'的"的''')
 
-
-
+# 1. 三引号, 大段字符串 + DocStrings文档字符串
+# 2. 三引号中可以包含单引号和双引号
+# 3. 单双引号相互嵌套.  减少转义符 -- 易读
 
 
 

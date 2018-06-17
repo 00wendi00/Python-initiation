@@ -16,13 +16,15 @@ test_exception2     异常处理2 .  raise , try exception, try finally
 
 test_func           function
 
-test_id             输入~输出~ , file的基本操作.  pickle模块 -- 储存,取储存 -- 将类以二进制的格式存入文件 -- 读取 .
+test_io             输入~输出~ , file的基本操作.  pickle模块 -- 储存,取储存 -- 将类以二进制的格式存入文件 -- 读取 .
+
+test_io             输出到控制台 + 输出到文件作为日志保存 --> 同时重定向到控制台和文件
 
 test_loop           控制流 -- 控制语句
 
 test_module         module
 
-test_more           1.特殊方法, 2.单语句块, 3.列表综合, 4.可变参数列表-- *args接收元组列表, **args接收字典 , 5.lambda表达式  6.exec , eval 语句
+test_more           1.特殊方法, 2.单语句块, 3.列表综合, 4.可变参数列表-- *args接收元组列表, **args接收字典 , 5.lambda表达式  6.exec执行语句 , eval执行语句  7.repr函数和反引号
 
 test_object         对象和类 , self, __init__,  类的变量和对象的变量 -- 类属性与实例属性 . 类的私有方法 . 单下划线、双下划线、头尾双下划线说明
 
