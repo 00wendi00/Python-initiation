@@ -6,6 +6,7 @@ Systematic learning of basic python knowledge
 环境:win10 , python3.5.2
 
 以下为文件说明 :
+
 test_start          hello world ~
 
 test_datastruct     数据结构. 列表, 元组, 字典
