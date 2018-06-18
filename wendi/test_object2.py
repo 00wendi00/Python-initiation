@@ -3,7 +3,7 @@
 # @File  : test_object2.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/14
-# @Desc  : 继承 , 多态.  多重继承
+# @Desc  : 继承 , 多态. 多重继承
 
 
 class SchoolMember:
