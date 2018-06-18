@@ -3,7 +3,7 @@
 # @File  : test_solveprob.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/12
-# @Desc  : 解决实际问题.  遍历文件和文件夹, 并使用zipfile压缩
+# @Desc  : 解决实际问题. 遍历文件和文件夹, 并使用zipfile压缩
 
 import os
 import time
