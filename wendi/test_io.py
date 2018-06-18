@@ -3,7 +3,7 @@
 # @File  : test_io.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/14
-# @Desc  : 输入~输出~ , file的基本操作.  pickle模块 -- 储存,取储存 -- 将类以二进制的格式存入文件, 读取 .
+# @Desc  : 输入~输出~ ,  file的基本操作.  pickle模块 -- 储存,取储存 -- 将类以二进制的格式存入文件, 读取 .
 import pickle as p
 
 poem = '''
