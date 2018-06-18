@@ -3,7 +3,7 @@
 # @File  : test_exception.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/14
-# @Desc  : 异常处理 , try , exception ~ , else
+# @Desc  : 异常处理 , try , exception ~ ,  else
 import sys
 
 try:
