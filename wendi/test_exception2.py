@@ -3,7 +3,7 @@
 # @File  : test_exception2.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/14
-# @Desc  : 异常处理2 .  raise , try exception, try finally
+# @Desc  : 异常处理2 .   raise , try exception, try finally
 
 
 class ShortInputException(Exception):
