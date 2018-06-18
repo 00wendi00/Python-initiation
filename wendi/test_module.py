@@ -3,7 +3,7 @@
 # @File  : test_module.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/12
-# @Desc  : 模块
+# @Desc  :  模块
 
 import os
 import sys
