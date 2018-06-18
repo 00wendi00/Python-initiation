@@ -3,7 +3,7 @@
 # @File  : test_object1.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/14
-# @Desc  : 类与对象的变量 ~    self. 为属性参考, __privatevar修饰的为私有变量
+# @Desc  : 类与对象的变量 ~  self.为属性参考, __privatevar修饰的为私有变量
 
 
 class Person:
