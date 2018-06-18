@@ -3,7 +3,7 @@
 # @File  : test_datastruct.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/12
-# @Desc  : 数据结构. 列表, 元组, 字典
+# @Desc  : 数据结构. 列表, 元组,  字典
 
 
 shoplist = ['apple', 'mango', 'carrot', 'banana']
