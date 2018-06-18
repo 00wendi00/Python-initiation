@@ -3,7 +3,7 @@
 # @File  : test_object.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/12
-# @Desc  : 对象和类 , self, __init__,  类的变量和对象的变量 -- 类属性与实例属性 . 类的私有方法 . 单下划线、双下划线、头尾双下划线说明
+# @Desc  : 对象和类 , self, __init__,   类的变量和对象的变量 -- 类属性与实例属性 . 类的私有方法 . 单下划线、双下划线、头尾双下划线说明
 
 
 class Person:
