@@ -3,7 +3,7 @@
 # @File  : test_io1.py
 # @Author: Wade Cheung
 # @Date  : 2018/6/17
-# @Desc  : 输出到控制台 + 输出到文件作为日志保存 --> 输出同时重定向到控制台和文件
+# @Desc  : 输出到控制台  + 输出到文件作为日志保存 --> 输出同时重定向到控制台和文件
 
 
 import sys
