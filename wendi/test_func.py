@@ -3,7 +3,7 @@
 # @File  : test_func.py_base
 # @Author: Wade Cheung
 # @Date  : 2018/6/12
-# @Desc  : function
+# @Desc  : 函数 function
 
 
 print('---------------全局变量----------------')
