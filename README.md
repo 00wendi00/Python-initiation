@@ -34,3 +34,5 @@ test_object1        类与对象的变量 ~    self. 为属性参考, __privatev
 test_object2        继承 , 多态.  多重继承
 
 test_solveprob      遍历文件和文件夹, 并使用zipfile压缩
+
+test_time           获得当前时间.  str_time, datetime, timestamp的相互转化.
