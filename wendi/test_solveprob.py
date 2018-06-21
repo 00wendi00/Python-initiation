@@ -30,6 +30,7 @@ dirlist = os.listdir(dirmystr)
 alllist = []
 
 
+# 递归--循环调用, 终止条件.   向里没有文件夹的时候, 递归停止.
 def doit(parapath):
     dirlist_temp = os.listdir(parapath)
     for k in range(0, len(dirlist_temp)):
