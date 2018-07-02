@@ -6,7 +6,7 @@
 # @Desc  : 单元测试 : 是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作
 
 import unittest
-from wendi.test_unitDict import Dict
+from basic.test_unitDict import Dict
 
 
 # 若不用main , 运行python -m unittest test_unitTest , 也可执行单元测试
