@@ -48,8 +48,10 @@ test_unitTest       单元测试 : 是用来对一个模块、一个函数或者
 
 
 -------------------- Algorithm --------------------
+Fibonacci           斐波拉契列表 .
+
 search_binary       二分查找 : 在有序表中,每次查找并对比low-high范围中的中间元素 . 时间复杂度为O(log2n)
 
+search_insert       插值查找, 二分查找的变体 ：以更快的速度进行缩减
 
-
-
+search_fibonacci    斐波拉契查找, 平均性能，要优于二分查找
