@@ -42,6 +42,8 @@ test_solveprob      遍历文件和文件夹, 并使用zipfile压缩
 
 test_time           获得当前时间.  str_time, datetime, timestamp的相互转化.
 
+test_threading      模块Threading用于提供线程相关的操作. 基本方法 : start, getName, setName, name, is_alive, isAlive, setDaemon, ident, join, run
+
 test_unitDict       单元测试被测试类, 参考https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140137128705556022982cfd844b38d050add8565dcb9000
 
 test_unitTest       单元测试 : 是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作
