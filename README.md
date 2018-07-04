@@ -84,3 +84,5 @@ test_threading2     用queuelib包中的queue.Queue实现消费者模型
 test_threading3     使用queuelib包中的queue.Queue实现 线程池
 
 test_threading4     往队列中无限添加任务 : thread, 函数回调, Queue, contextlib.contextmanager
+
+test_threading5     信号量 Semaphore  , 允许一定数量的线程同时访问数据
