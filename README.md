@@ -11,6 +11,8 @@ algorithm : 基础数据结构和算法
 
 -------------------- Algorithm --------------------
 
+BinarySortTree      二叉查找树 -- 二叉排序数
+
 Fibonacci           斐波拉契列表 .
 
 search_binary       二分查找 : 在有序表中,每次查找并对比low-high范围中的中间元素 . 时间复杂度为O(log2n)
@@ -62,6 +64,7 @@ test_unitTest       单元测试 : 是用来对一个模块、一个函数或者
 
 
 -------------------- thread--进程、线程、协程 --------------------
+
 参考https://www.cnblogs.com/aylin/p/5601969.html
 
 test_asyncio        协程asyncio, 只使用一个线程，在一个线程中规定某个代码块执行顺序.   还有gevent, greenlet等第三方包
