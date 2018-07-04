@@ -8,7 +8,20 @@ algorithm : 基础数据结构和算法
 
 以下为文件说明 :
 
--------------------- basic --------------------
+
+-------------------- Algorithm --------------------
+
+Fibonacci           斐波拉契列表 .
+
+search_binary       二分查找 : 在有序表中,每次查找并对比low-high范围中的中间元素 . 时间复杂度为O(log2n)
+
+search_insert       插值查找, 二分查找的变体 ：以更快的速度进行缩减
+
+search_fibonacci    斐波拉契查找, 平均性能，要优于二分查找
+
+
+
+-------------------- basic--python basic knowledge --------------------
 
 test_start          hello world ~
 
@@ -42,6 +55,23 @@ test_solveprob      遍历文件和文件夹, 并使用zipfile压缩
 
 test_time           获得当前时间.  str_time, datetime, timestamp的相互转化.
 
+test_unitDict       单元测试被测试类, 参考https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140137128705556022982cfd844b38d050add8565dcb9000
+
+test_unitTest       单元测试 : 是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作
+
+
+
+-------------------- thread--进程、线程、协程 --------------------
+参考https://www.cnblogs.com/aylin/p/5601969.html
+
+test_asyncio        协程asyncio, 只使用一个线程，在一个线程中规定某个代码块执行顺序.   还有gevent, greenlet等第三方包
+
+test_process1       multiprocessing多进程中的共享数据, Value, Array
+
+test_process2       模块multiprocessing.Manager的dict, list . 提供了多种数据类型的共享支持
+
+test_process3       线程池. multiprocessing.Pool , apply, apply_async
+
 test_threading      模块Threading用于提供线程相关的操作. 基本方法 : start, getName, setName, name, is_alive, isAlive, setDaemon, ident, join, run
 
 test_threading1     用threading.Condition实现消费者模型
@@ -51,17 +81,3 @@ test_threading2     用queuelib包中的queue.Queue实现消费者模型
 test_threading3     使用queuelib包中的queue.Queue实现 线程池
 
 test_threading4     往队列中无限添加任务 : thread, 函数回调, Queue, contextlib.contextmanager
-
-test_unitDict       单元测试被测试类, 参考https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140137128705556022982cfd844b38d050add8565dcb9000
-
-test_unitTest       单元测试 : 是用来对一个模块、一个函数或者一个类来进行正确性检验的测试工作
-
-
--------------------- Algorithm --------------------
-Fibonacci           斐波拉契列表 .
-
-search_binary       二分查找 : 在有序表中,每次查找并对比low-high范围中的中间元素 . 时间复杂度为O(log2n)
-
-search_insert       插值查找, 二分查找的变体 ：以更快的速度进行缩减
-
-search_fibonacci    斐波拉契查找, 平均性能，要优于二分查找
