@@ -67,7 +67,7 @@ test_unitTest       单元测试 : 是用来对一个模块、一个函数或者
 
 参考https://www.cnblogs.com/aylin/p/5601969.html
 
-test_asyncio        协程asyncio, 只使用一个线程，在一个线程中规定某个代码块执行顺序.   还有gevent, greenlet等第三方包
+test_asyncio        协程asyncio, 只使用一个线程，在一个线程中规定某个代码块执行顺序. + 延迟执行    还有gevent, greenlet等第三方包
 
 test_process1       multiprocessing多进程中的共享数据, Value, Array
 
