@@ -15,6 +15,8 @@ BinarySortTree      二叉查找树 -- 二叉排序数
 
 Fibonacci           斐波拉契列表 .
 
+GCD                 最小公约数
+
 search_binary       二分查找 : 在有序表中,每次查找并对比low-high范围中的中间元素 . 时间复杂度为O(log2n)
 
 search_insert       插值查找, 二分查找的变体 ：以更快的速度进行缩减
