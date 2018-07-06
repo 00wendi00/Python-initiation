@@ -23,6 +23,7 @@ search_insert       插值查找, 二分查找的变体 ：以更快的速度进
 
 search_fibonacci    斐波拉契查找, 平均性能，要优于二分查找
 
+test_list           创建list的4个操作, 时间对比
 
 
 -------------------- basic--python basic knowledge --------------------
