@@ -3,29 +3,33 @@
 # @File  : test_list.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/6
-# @Desc  : 创建list的4个操作, 时间对比
+# @Desc  : 创建list的4个操作, 时间对比 . concatenation, append, comprehension, list range
 
 
 from timeit import Timer
 import time
 
 
+# concatenation
 def test1():
     l = []
     for i in range(1000):
         l = l + [i]
 
 
+# append
 def test2():
     l = []
     for i in range(1000):
         l.append(i)
 
 
+# comprehension
 def test3():
     l = [i for i in range(1000)]
 
 
+# list range
 def test4():
     l = list(range(1000))
 
