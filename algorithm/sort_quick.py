@@ -3,14 +3,15 @@
 # @File  : sort_quick.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/8
-# @Desc  : 快速排序, 分治算法.  平均时间复杂度为O（n×log（n）），最糟糕时复杂度为O（n^2）
+# @Desc  : 快速排序, 分治算法.  平均时间复杂度为O(nlogn)，最糟糕时复杂度为O（n^2）
 
 
 # 1. 选取一个数作为基数, 最左端的值为基数.
 # 2. 从后向前搜索,比基数小则调换, 再从前向后搜索,比基数大则调换, 直到两边的index相等
 # 3. 重复1,2 直到left不再小于right
 
-
+# 递归的深度最大为[log2n]+1 , 比较n次, 需要时间为T（n） . 获得的枢轴将数组一分为二，那么各自还需要T（n/2）的时间 = T（n）
+# 故时间复杂度为O(nlogn)
 def quick_sort(lis, left, right):
     if left < right:
         print(lis)
