@@ -3,7 +3,7 @@
 # @File  : sort_quick.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/8
-# @Desc  : 快速排序, 分治算法.
+# @Desc  : 快速排序, 分治算法.  平均时间复杂度为O（n×log（n）），最糟糕时复杂度为O（n^2）
 
 
 # 1. 选取一个数作为基数, 最左端的值为基数.

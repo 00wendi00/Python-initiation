@@ -3,7 +3,7 @@
 # @File  : sort_bubble.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/8
-# @Desc  : 冒泡排序 , 两个for循环加一个if判断
+# @Desc  : 冒泡排序 , 两个for循环加一个if判断 . 时间复杂度为O（n^2）
 
 
 def bubble_sort(lis):

@@ -25,7 +25,7 @@ search_fibonacci    斐波拉契查找, 平均性能，要优于二分查找
 
 sort_bubble         冒泡排序 , 两个for循环加一个if判断
 
-sort_quick          快速排序, 分治算法.
+sort_quick          快速排序, 分治算法.  平均时间复杂度为O（n×log（n）），最糟糕时复杂度为O（n^2）
 
 sort_quick1         快速排序, 分治算法1.  优化, 注意while里的一点区别
 
