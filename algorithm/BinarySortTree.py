@@ -3,7 +3,7 @@
 # @File  : BinarySortTree.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/4
-# @Desc  : 二叉查找树 -- 二叉排序数
+# @Desc  : 二叉查找树 -- 二叉排序数 . BST
 
 # 二叉树或为空, 或满足如下性质
 # 若左子树不为空, 则左子树上所有节点的值均小于它的根结构的值
@@ -139,5 +139,10 @@ if __name__ == '__main__':
     for i in range(len(lis)):
         bs_tree.insert(lis[i])
     bs_tree.delete(58)
+    for i in bs_tree:
+        print(i, end=" ")
+
+    print('\n')
+    bs_tree.insert(93)
     for i in bs_tree:
         print(i, end=" ")
