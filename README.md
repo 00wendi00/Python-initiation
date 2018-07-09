@@ -11,7 +11,9 @@ algorithm : 基础数据结构和算法
 
 -------------------- Algorithm --------------------
 
-BinarySortTree      二叉查找树 -- 二叉排序数
+BinaryBalancedTree  平衡二叉树 . BalancedBinaryTree -- AVL
+
+BinarySortTree      二叉查找树 -- 二叉排序数 . BST
 
 Fibonacci           斐波拉契列表 .
 
