@@ -1,12 +1,15 @@
 # python_initiation
 Systematic learning of basic python knowledge
-
-
-basic : 根据<简明python教程>一书, 对入门知识和基础句法的练习.
-algorithm : 基础数据结构和算法
 环境:win10 , python3.5.2
 
-以下为文件说明 :
+
+目录 :
+algorithm : 基础数据结构和算法
+basic : 根据<简明python教程>一书, 对入门知识和基础句法的练习.
+thread : 进程、线程、协程
+
+
+以下为详细说明 :
 
 
 -------------------- Algorithm --------------------
