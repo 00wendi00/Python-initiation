@@ -72,7 +72,6 @@ class AVLTree(object):
         else:
             return node.height
 
-
     # 插入操作时, 不平衡有四种情况：
     # 1.对K的左儿子的左子树进行一次插入
     # 2.对K的左儿子的右子树进行一次插入
@@ -121,7 +120,7 @@ class AVLTree(object):
         if node is None:
             node = Node(key)
         elif key < node.key:
-            node.left = self._put(key, node.left)
+            node.left = self._put(key, node.left)  # 递归
             if (self.height(node.left) - self.height(node.right)) == 2:
                 if key < node.left.key:
                     node = self.singleLeftRotate(node)
@@ -137,4 +136,57 @@ class AVLTree(object):
                     node = self.singleRightRotate(node)
 
         node.height = max(self.height(node.right), self.height(node.left)) + 1
+        return node
+
+    # 删除操作
+    def delete(self, key):
+        self.root = self.remove(key, self.root)
+
+    # 删除操作
+    def remove(self, key, node):
+        if node is None:
+            raise KeyError('Error, key not in tree')
+
+        # 4.当前节点不是要删除的节点，则对其左子树或者右子树进行递归操作。当前节点的平衡条件可能会被破坏，需要进行平衡操作。
+        elif key < node.key:
+            node.left = self.remove(key, node.left)  # 递归
+            if (self.height(node.right) - self.height(node.left)) == 2:
+                if self.height(node.right.right) >= self.height(node.right.left):
+                    node = self.singleRightRotate(node)
+                else:
+                    node = self.doubleRightRotate(node)
+            node.height = max(self.height(node.left), self.height(node.right)) + 1
+
+        # 4.当前节点不是要删除的节点，则对其左子树或者右子树进行递归操作。当前节点的平衡条件可能会被破坏，需要进行平衡操作。
+        elif key > node.key:
+            node.right = self.remove(key, node.right)
+            if (self.height(node.left) - self.height(node.right)) == 2:
+                if self.height(node.left.left) >= self.height(node.left.right):
+                    node = self.singleLeftRotate(node)
+                else:
+                    node = self.doubleLeftRotate(node)
+            node.height = max(self.height(node.left), self.height(node.right)) + 1
+
+        # 3.当前节点为要删除的节点且有左子树右子树:如果右子树高度较高，则从右子树选取最小节点，将其值赋予当前节点，
+        # 然后删除右子树的最小节点。如果左子树高度较高，则从左子树选取最大节点，将其值赋予当前节点，然后删除左子树的最大节点。
+        # 这样操作当前节点的平衡不会被破坏。
+        elif node.left and node.right:
+            if node.left.height <= node.right.height:
+                minNode = self._findMin(node.right)
+                node.key = minNode.key
+                node.right = self.remove(node.key, node.right)
+            else:
+                maxNode = self._findMax(node.left)
+                node.key = maxNode.key
+                node.left = self.remove(node.key, node.left)
+            node.height = max(self.height(node.left), self.height(node.right)) + 1
+
+        # 1.当前节点为要删除的节点且是树叶（无子树），直接删除，当前节点（为None）的平衡不受影响。
+        # 2.当前节点为要删除的节点且只有一个左儿子或右儿子，用左儿子或右儿子代替当前节点，当前节点的平衡不受影响(或递归到的此层不影响)。
+        else:
+            if node.right:
+                node = node.right
+            else:
+                node = node.left
+
         return node
