@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @File  : test_Sierpinski.py
+# @File  : Sierpinski.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/11
 # @Desc  : 谢尔宾斯基三角形
