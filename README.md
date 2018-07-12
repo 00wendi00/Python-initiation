@@ -86,6 +86,8 @@ test_unitTest       单元测试 : 是用来对一个模块、一个函数或者
 
 ## recursion : 递归
 
+Hanoi_tower         盘杆难题 Tower of Hanoi
+
 test_recursion1     递归相加,切片操作,pop() ; 二进制数转化为 n进制数 ; 栈实现递归 ; 字符串反转,字符串截取 ; 判断字符串是否是回文
 
 test_Sierpinski     谢尔宾斯基三角形
