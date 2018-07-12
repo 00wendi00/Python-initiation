@@ -92,6 +92,8 @@ giveChange          找零钱问题
 
 Hanoi_tower         盘杆难题 Tower of Hanoi
 
+Pascal_triangle     帕斯卡三角, 杨辉三角
+
 Sierpinski          谢尔宾斯基三角形
 
 test_recursion1     递归相加,切片操作,pop() ; 二进制数转化为 n进制数 ; 栈实现递归 ; 字符串反转,字符串截取 ; 判断字符串是否是回文
