@@ -19,7 +19,6 @@ Systematic learning of basic python knowledge
 
 
 ## Algorithm
--------------------------------------------------------------------------------------------
 
 BinaryBalancedTree  平衡二叉树 . BalancedBinaryTree -- AVL
 
@@ -46,7 +45,6 @@ test_list           创建list的4个操作, 时间对比 . concatenation, appen
 
 
 ## basic--python basic knowledge
--------------------------------------------------------------------------------------------
 
 test_start          hello world ~
 
@@ -87,7 +85,6 @@ test_unitTest       单元测试 : 是用来对一个模块、一个函数或者
 
 
 ## recursion : 递归
--------------------------------------------------------------------------------------------
 
 test_recursion1     递归相加,切片操作,pop() ; 二进制数转化为 n进制数 ; 栈实现递归 ; 字符串反转,字符串截取 ; 判断字符串是否是回文
 
@@ -98,7 +95,7 @@ test_turtle         内嵌的Turtle图形程序模块 . draw Spiral and Tree
 
 
 ## thread--进程、线程、协程
--------------------------------------------------------------------------------------------
+
 参考https://www.cnblogs.com/aylin/p/5601969.html
 
 test_asyncio        协程asyncio, 只使用一个线程，在一个线程中规定某个代码块执行顺序. + 延迟执行    还有gevent, greenlet等第三方包
