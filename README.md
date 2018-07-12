@@ -5,13 +5,13 @@ Systematic learning of basic python knowledge
 
 目录 :
 
-#algorithm : 基础数据结构和算法
+# algorithm : 基础数据结构和算法
 
-#basic : 根据<简明python教程>一书, 对入门知识和基础句法的练习.
+# basic : 根据<简明python教程>一书, 对入门知识和基础句法的练习.
 
-#recursion : 递归
+# recursion : 递归
 
-#thread : 进程、线程、协程
+# thread : 进程、线程、协程
 
 
 
