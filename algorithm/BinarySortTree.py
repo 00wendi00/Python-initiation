@@ -121,6 +121,7 @@ class BinarySortTree:
         else:
             p.right = q.left
 
+    # 中序遍历
     def __iter__(self):
         stack = []
         node = self._root
