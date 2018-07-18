@@ -3,7 +3,7 @@
 # @File  : sort_insertion.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/18
-# @Desc  : 插入排序, 取出值,放到合适位置 . 与sort_bubble比较 --> 减少了比较次数,交换次数未变
+# @Desc  : 插入排序, 取出值,放到合适位置, 时间复杂度为O（n^2）. 与sort_bubble比较 --> 减少了比较次数,交换次数未变
 
 
 def insertion_sort(lis):
@@ -23,7 +23,7 @@ def insertion_sort(lis):
             position = position - 1  # 再往前面一个找
         else:
             if position > 0:
-                compareTimes += 1  # 前某个数比currentvalue小时, 也比较了一个, 终止while
+                compareTimes += 1  # 前某个数比currentvalue小时, 也比较了一次, 终止while
 
         lis[position] = currentvalue  # 将取出来的放入合适位置
 
