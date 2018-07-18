@@ -3,7 +3,7 @@
 # @File  : sort_bubbleShort.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/18
-# @Desc  : 短冒泡排序, 与sort_bubble比较 --> 减少了比较次数,交换次数未变
+# @Desc  : 短冒泡排序, 时间复杂度为O（n^2）, 与sort_bubble比较 --> 减少了比较次数,交换次数未变
 
 
 def shortBubbleSort(alist):
