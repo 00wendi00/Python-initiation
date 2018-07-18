@@ -44,6 +44,8 @@ sort_bubble         冒泡排序 , 两个for循环加一个if判断 .  时间复
 
 sort_bubbleShort    短冒泡排序, 与sort_bubble比较 --> 减少了比较次数,交换次数未变
 
+sort_insertion      插入排序, 取出值,放到合适位置 . 与sort_bubble比较 --> 减少了比较次数,交换次数未变
+
 sort_quick          快速排序, 分治算法.  平均时间复杂度为O（n×log（n）），最糟糕时复杂度为O（n^2）
 
 sort_quick1         快速排序, 分治算法1.  优化, 注意while里的一点区别
