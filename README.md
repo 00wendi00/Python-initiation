@@ -30,6 +30,8 @@ Fibonacci           斐波拉契列表 .
 
 GCD                 最小公约数
 
+HashTable           数据结构 -- 字典的实现方式.
+
 PrimeNumber         查找质数
 
 search_binary       二分查找 : 在有序表中,每次查找并对比low-high范围中的中间元素 . 时间复杂度为O(log2n)
