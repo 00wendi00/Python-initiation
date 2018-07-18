@@ -3,7 +3,7 @@
 # @File  : sort_selection.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/18
-# @Desc  : 选择排序, 每次找出最大数的位置, 将最大数交换到对应位置 与sort_bubble比较 --> 比较次数未变, 减少了交换次数
+# @Desc  : 选择排序, 每次找出最大数的位置, 将最大数交换到对应位置, 时间复杂度为O（n^2）. 与sort_bubble比较 --> 比较次数未变, 减少了交换次数
 
 
 def selection_sort(lis):
