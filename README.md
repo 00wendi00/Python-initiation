@@ -42,15 +42,17 @@ search_fibonacci    斐波拉契查找, 平均性能，要优于二分查找
 
 sort_bubble         冒泡排序 , 两个for循环加一个if判断 .  时间复杂度为O（n^2）.  注意比较次数
 
-sort_bubbleShort    短冒泡排序, 与sort_bubble比较 --> 减少了比较次数,交换次数未变
+sort_bubbleShort    短冒泡排序, 时间复杂度为O（n^2）, 与sort_bubble比较 --> 减少了比较次数,交换次数未变
 
-sort_insertion      插入排序, 取出值,放到合适位置 . 与sort_bubble比较 --> 减少了比较次数,交换次数未变
+sort_insertion      插入排序, 取出值,放到合适位置, 时间复杂度为O（n^2）. 与sort_bubble比较 --> 减少了比较次数,交换次数未变
 
 sort_quick          快速排序, 分治算法.  平均时间复杂度为O（n×log（n）），最糟糕时复杂度为O（n^2）
 
 sort_quick1         快速排序, 分治算法1.  优化, 注意while里的一点区别
 
-sort_selection      选择排序,  每次找出最大数的位置, 将最大数交换到对应位置, 与sort_bubble比较 --> 比较次数未变, 减少了交换次数
+sort_selection      选择排序, 每次找出最大数的位置, 将最大数交换到对应位置, 时间复杂度为O（n^2）. 与sort_bubble比较 --> 比较次数未变, 减少了交换次数
+
+sort_shell          希尔排序, 将序列分为几个区域来提升插入排序的效率, 时间复杂度为O（n^2）. 注意步长选择
 
 test_list           创建list的4个操作, 时间对比 . concatenation, append, comprehension, list range
 
