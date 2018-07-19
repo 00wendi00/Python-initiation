@@ -26,7 +26,7 @@ BinarySortTree      二叉查找树 -- 二叉排序数 . BST
 
 BinarySortTree1     二叉树实现 -- List of Lists Representation
 
-Binarytraverse      二叉树的三种遍历方式, 先序NLR, 中序LNR, 后序LRN.   递归实现  +  遍历实现
+Binarytraverse      二叉树的三种遍历方式, 先序NLR--preorder, 中序LNR--inorder, 后序LRN--postorder.   递归实现  +  遍历实现
 
 Fibonacci           斐波拉契列表 .
 
