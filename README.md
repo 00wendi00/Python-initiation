@@ -28,11 +28,13 @@ BinarySortTree1     二叉树实现 -- List of Lists Representation
 
 Binarytraverse      二叉树的三种遍历方式, 先序NLR--preorder, 中序LNR--inorder, 后序LRN--postorder.   递归实现  +  遍历实现
 
+colle_chain         数据结构 -- 单链表的实现 .  append, insert, delete, reverse, get,set
+
+colle_hash          数据结构 -- 字典的实现方式.
+
 Fibonacci           斐波拉契列表 .
 
 GCD                 最小公约数
-
-HashTable           数据结构 -- 字典的实现方式.
 
 PrimeNumber         查找质数
 
