@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @File  : HashTable.py
+# @File  : colle_hash.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/18
-# @Desc  : 数据结构 -- 字典的实现方式.
+# @Desc  : 数据结构 -- 字典(哈希表)的实现方式.
 
 
 class HashTable:
