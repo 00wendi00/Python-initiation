@@ -3,7 +3,7 @@
 # @File  : test_threading4.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/4
-# @Desc  : 往队列中无限添加任务 : thread, 回调, Queue, contextlib.contextmanager
+# @Desc  : 往队列中无限添加任务 : threading, 回调, Queue, contextlib.contextmanager
 
 import threading
 import contextlib
