@@ -36,6 +36,8 @@ Fibonacci           斐波拉契列表 .
 
 GCD                 最大公约数
 
+KMP                 算法,KMP.   移动位数;部分匹配表
+
 PrimeNumber         查找质数
 
 search_binary       二分查找 : 在有序表中,每次查找并对比low-high范围中的中间元素 . 时间复杂度为O(log2n)
