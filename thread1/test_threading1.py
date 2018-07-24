@@ -9,7 +9,7 @@
 # 修改状态的线程在他们状态改变时调用 notify() or notify_all()，用这种方式，线程会尽可能的获取到想要的一个等待者状态。
 # 例子： 生产者-消费者模型
 
-import threading
+import thread1
 import time
 
 
@@ -27,11 +27,11 @@ def producer(cond, name):
         print('%s producer after notifyAll' % name)
 
 
-condition = threading.Condition()
-c1 = threading.Thread(name='c1', target=consumer, args=(condition, 'c1',))
-c2 = threading.Thread(name='c2', target=consumer, args=(condition, 'c2',))
+condition = thread1.Condition()
+c1 = thread1.Thread(name='c1', target=consumer, args=(condition, 'c1',))
+c2 = thread1.Thread(name='c2', target=consumer, args=(condition, 'c2',))
 
-p = threading.Thread(name='p', target=producer, args=(condition, 'p',))
+p = thread1.Thread(name='p', target=producer, args=(condition, 'p',))
 
 c1.start()
 time.sleep(2)

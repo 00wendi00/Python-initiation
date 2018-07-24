@@ -11,7 +11,7 @@ Systematic learning of basic python knowledge
 
 ## recursion : 递归
 
-## threading : 进程、线程、协程
+## thread1 : 进程、线程、协程
 
 
 
@@ -124,7 +124,7 @@ test_turtle         内嵌的Turtle图形程序模块 . draw Spiral and Tree
 
 
 
-## threading--进程、线程、协程
+## thread1--进程、线程、协程
 
 参考https://www.cnblogs.com/aylin/p/5601969.html
 

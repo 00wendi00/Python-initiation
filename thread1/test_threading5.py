@@ -9,24 +9,24 @@
 # 比如厕所有3个坑，那最多只允许3个人上厕所，后面的人只能等里面有人出来了才能再进去
 
 import time
-import threading
+import thread1
 
 
 def run(n):
     semaphore.acquire()
     time.sleep(1)
-    print('run the threading: %s\n' % n)
+    print('run the thread1: %s\n' % n)
     semaphore.release()
 
 
 if __name__ == '__main__':
     num = 0
-    semaphore = threading.BoundedSemaphore(5)  # 最多允许5个线程同时运行
+    semaphore = thread1.BoundedSemaphore(5)  # 最多允许5个线程同时运行
     for i in range(20):
-        t = threading.Thread(target=run, args=(i,))
+        t = thread1.Thread(target=run, args=(i,))
         t.start()
 
-while threading.active_count() != 1:
+while thread1.active_count() != 1:
     pass
 else:
     print('------all threads done------')
