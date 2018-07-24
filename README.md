@@ -34,7 +34,7 @@ colle_hash          数据结构 -- 字典的实现方式.
 
 Fibonacci           斐波拉契列表 .
 
-GCD                 最小公约数
+GCD                 最大公约数
 
 PrimeNumber         查找质数
 

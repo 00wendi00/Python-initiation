@@ -3,7 +3,7 @@
 # @File  : GCD.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/6
-# @Desc  : 最小公约数
+# @Desc  : 最大公约数
 
 
 def gcd(m, n):
