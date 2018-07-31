@@ -3,7 +3,7 @@
 # @File  : Binarytraverse.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/13
-# @Desc  : 二叉树的三种遍历方式, 先序NLR--preorder, 中序LNR--inorder, 后序LRN--postorder.   递归实现  +  遍历实现
+# @Desc  : 二叉树的三种遍历方式( 深度优先 ), 先序NLR--preorder, 中序LNR--inorder, 后序LRN--postorder.   递归实现  +  遍历实现
 
 from algorithm.BinarySortTree import BinarySortTree
 
