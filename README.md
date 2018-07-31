@@ -26,7 +26,9 @@ BinarySortTree      二叉查找树 -- 二叉排序数 . BST
 
 BinarySortTree1     二叉树实现 -- List of Lists Representation
 
-Binarytraverse      二叉树的三种遍历方式, 先序NLR--preorder, 中序LNR--inorder, 后序LRN--postorder.   递归实现  +  遍历实现
+Binarytraverse      二叉树的三种遍历方式( 深度优先 ), 先序NLR--preorder, 中序LNR--inorder, 后序LRN--postorder.   递归实现  +  遍历实现
+
+Binarytraverse1     二叉树的遍历方式( 广度优先 )
 
 colle_chain         数据结构 -- 单链表的实现 .  append, insert, delete, reverse, get,set
 
