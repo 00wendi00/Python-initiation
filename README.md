@@ -48,6 +48,8 @@ search_insert       插值查找, 二分查找的变体 ：以更快的速度进
 
 search_fibonacci    斐波拉契查找, 平均性能，要优于二分查找
 
+select_quick        快速选择 , topk,找出第K小的数
+
 sort_bubble         冒泡排序 , 两个for循环加一个if判断 .  时间复杂度为O（n^2）.  注意比较次数
 
 sort_bubbleShort    短冒泡排序, 时间复杂度为O（n^2）, 与sort_bubble比较 --> 减少了比较次数,交换次数未变
