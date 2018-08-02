@@ -73,7 +73,24 @@ def left_right_node2(node):
         if node.right:
             stack.append(node.right)
         l.append(node.data)
-    l.reverse()   # append 的实际顺序为中右左 . 翻转为左右中.
+    l.reverse()  # append 的实际顺序为中右左 . 翻转为左右中.
+    return l
+
+
+# 后序遍历LRN , 最后reverse
+def left_right_node3(node):
+    l = []
+    stack = []
+    while stack or node:
+        while node:
+            l.append(node.data)
+            stack.append(node)
+            node = node.right
+
+        node = stack.pop()
+        node = node.left
+
+    l.reverse()  # append 的实际顺序为中右左 . 翻转为左右中.
     return l
 
 
