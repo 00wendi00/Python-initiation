@@ -7,7 +7,7 @@
 
 # 基本方法 : start, getName, setName, name, is_alive, isAlive, setDaemon, ident, join, run
 
-import thread1
+import threading
 import time
 
 
@@ -18,7 +18,7 @@ def worker(num):
 
 
 globals_num = 0
-lock = thread1.RLock()
+lock = threading.RLock()
 
 
 # RLock允许在同一线程中被多次acquire。而Lock却不允许, 若出现则产生死锁
@@ -33,7 +33,7 @@ def fun_locl():
 
 
 def fun_lock_exe():
-    t = thread1.Thread(target=fun_locl)
+    t = threading.Thread(target=fun_locl)
     t.start()
 
 
@@ -46,9 +46,9 @@ def event_do(event):
 # 事件处理的机制：全局定义了一个“Flag”，如果“Flag”值为 False，那么当程序执行 event.wait 方法时就会阻塞，
 # 如果“Flag”值为True，那么event.wait 方法时便不再阻塞。
 def event_do_exe():
-    event_obj = thread1.Event()  # Flag默认为False ,阻塞
+    event_obj = threading.Event()  # Flag默认为False ,阻塞
     for i in range(10):
-        t = thread1.Thread(target=event_do, args=(event_obj,))
+        t = threading.Thread(target=event_do, args=(event_obj,))
         t.start()
     event_obj.clear()  # 将“Flag”设置为False
     inp = input('input:')

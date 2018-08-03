@@ -9,7 +9,7 @@
 # 比如厕所有3个坑，那最多只允许3个人上厕所，后面的人只能等里面有人出来了才能再进去
 
 import time
-import thread1
+import threading
 
 
 def run(n):
@@ -21,12 +21,12 @@ def run(n):
 
 if __name__ == '__main__':
     num = 0
-    semaphore = thread1.BoundedSemaphore(5)  # 最多允许5个线程同时运行
+    semaphore = threading.BoundedSemaphore(5)  # 最多允许5个线程同时运行
     for i in range(20):
-        t = thread1.Thread(target=run, args=(i,))
+        t = threading.Thread(target=run, args=(i,))
         t.start()
 
-while thread1.active_count() != 1:
+while threading.active_count() != 1:
     pass
 else:
     print('------all threads done------')

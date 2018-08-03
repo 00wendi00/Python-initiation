@@ -5,7 +5,7 @@
 # @Date  : 2018/7/4
 # @Desc  : 往队列中无限添加任务 : thread1, 回调, Queue, contextlib.contextmanager
 
-import thread1
+import threading
 import contextlib
 import time
 from queue import Queue
@@ -46,7 +46,7 @@ class ThreadPool(object):
             self.q.put(w)
 
     def generate_thread(self):
-        t = thread1.Thread(target=self.call)
+        t = threading.Thread(target=self.call)
         t.start()
 
     def call(self):
@@ -54,7 +54,7 @@ class ThreadPool(object):
          循环去获取任务函数并执行任务函数
         :return:
         """
-        current_thread = thread1.currentThread
+        current_thread = threading.currentThread
         self.generate_list.append(current_thread)
 
         event = self.q.get()  # 获取线程
@@ -103,11 +103,11 @@ class ThreadPool(object):
 
     @contextlib.contextmanager
     def work_state(self):
-        self.free_list.append(thread1.currentThread)
+        self.free_list.append(threading.currentThread)
         try:
             yield
         finally:
-            self.free_list.remove(thread1.currentThread)
+            self.free_list.remove(threading.currentThread)
 
 
 def work(i):
