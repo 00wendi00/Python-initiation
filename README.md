@@ -140,6 +140,8 @@ test_process2       模块multiprocessing.Manager的dict, list . 提供了多种
 
 test_process3       线程池. multiprocessing.Pool , apply, apply_async
 
+test_readwrite      读写锁的实现 , 读者优先
+
 test_threading      模块Threading用于提供线程相关的操作. 基本方法 : start, getName, setName, name, is_alive, isAlive, setDaemon, ident, join, run
 
 test_threading1     用threading.Condition实现消费者模型
