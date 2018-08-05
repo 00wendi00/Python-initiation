@@ -9,6 +9,8 @@ Systematic learning of basic python knowledge
 
 ## recursion : 递归
 
+## singleton : 单例模式
+
 ## thread1 : 进程、线程、协程
 
 
@@ -83,6 +85,20 @@ Sierpinski          谢尔宾斯基三角形
 test_recursion1     递归相加,切片操作,pop() ; 二进制数转化为 n进制数 ; 栈实现递归 ; 字符串反转,字符串截取 ; 判断字符串是否是回文
 
 test_turtle         内嵌的Turtle图形程序模块 . draw Spiral and Tree
+
+
+
+## singleton--单例模式
+
+single_class        单例模式--使用类
+
+single_decorator    单例模式--使用装饰器
+
+single_metaclass    单例模式--使用元类实现
+
+single_module       单例模式--使用模块
+
+single_new          单例模式--使用new
 
 
 
