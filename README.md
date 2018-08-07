@@ -9,7 +9,7 @@ Systematic learning of basic python knowledge
 
 ## recursion : 递归
 
-## singleton : 单例模式
+## design : 设计模式
 
 ## thread1 : 进程、线程、协程
 
@@ -88,7 +88,9 @@ test_turtle         内嵌的Turtle图形程序模块 . draw Spiral and Tree
 
 
 
-## singleton--单例模式
+## design : 设计模式
+
+factory_pattern     工厂模式
 
 single_class        单例模式--使用类 + @classmethod
 

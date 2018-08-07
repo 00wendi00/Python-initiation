@@ -7,21 +7,21 @@
 
 
 ## 使用模块
-# from singleton.single_module import mySingleton
+# from design.single_module import mySingleton
 #
 # print(mySingleton)
 
 ## 使用类
-# from singleton.single_class import Singleton
+# from design.single_class import Singleton
 #
 # Singleton.instance()
 
 # 使用new
-# from singleton.single_new import Singleton
+# from design.single_new import Singleton
 #
 # s = Singleton()
 
-from singleton.single_metaclass import Foo
+from design.single_metaclass import Foo
 obj1 = Foo('name')
 obj2 = Foo('name')
 print(obj1, obj2)
