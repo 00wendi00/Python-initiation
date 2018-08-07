@@ -3,7 +3,7 @@
 # @File  : test_process3.py
 # @Author: Wade Cheung
 # @Date  : 2018/7/4
-# @Desc  : 线程池. multiprocessing.Pool , apply, apply_async
+# @Desc  : 进程池. multiprocessing.Pool , apply, apply_async
 
 from multiprocessing import Pool
 import time

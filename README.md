@@ -90,7 +90,7 @@ test_turtle         内嵌的Turtle图形程序模块 . draw Spiral and Tree
 
 ## singleton--单例模式
 
-single_class        单例模式--使用类
+single_class        单例模式--使用类 + @classmethod
 
 single_decorator    单例模式--使用装饰器
 
@@ -112,7 +112,7 @@ test_process1       multiprocessing多进程中的共享数据, Value, Array
 
 test_process2       模块multiprocessing.Manager的dict, list . 提供了多种数据类型的共享支持
 
-test_process3       线程池. multiprocessing.Pool , apply, apply_async
+test_process3       进程池. multiprocessing.Pool , apply, apply_async
 
 test_readwrite      读写锁的实现 , 读者优先
 

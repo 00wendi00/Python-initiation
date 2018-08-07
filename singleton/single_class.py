@@ -3,7 +3,7 @@
 # @File  : single_class.py
 # @Author: Wade Cheung
 # @Date  : 2018/8/5
-# @Desc  : 单例模式--使用类
+# @Desc  : 单例模式--使用类 + @classmethod
 
 
 # classmethod 是类对象与函数的结合。
@@ -25,5 +25,4 @@ class Singleton(object):
             with Singleton._instance_lock:
                 if not hasattr(Singleton, '_instance'):
                     Singleton._instance = Singleton(*args, **kwargs)
-                    print(12345)
         return Singleton._instance
