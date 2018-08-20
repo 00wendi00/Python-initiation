@@ -90,6 +90,8 @@ test_turtle         内嵌的Turtle图形程序模块 . draw Spiral and Tree
 
 ## design : 设计模式
 
+builder             建造者模式
+
 factory_sample_pattern      简单工厂模式, 抽象了产品, 在一个工厂类中创建产品实例.
 
 factory_abstract_pattern    抽象工厂模式, 工厂和产品是一对多的关系. 多个工厂即代表多个产品线.
