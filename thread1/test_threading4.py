@@ -71,7 +71,7 @@ class ThreadPool(object):
             if callback is not None:
                 try:
                     callback(status, result)
-                except Exception as e:
+                except e:
                     pass
 
             self.free_list.append(current_thread)
@@ -120,8 +120,8 @@ def callback1(ret1, ret2):
     print(ret2)
 
 
-pool = ThreadPool(10)
-for item in range(10):
+pool = ThreadPool(100)
+for item in range(100):
     pool.run(func=work, args=(item,), callback=callback1)
 
 # pool.terminate()

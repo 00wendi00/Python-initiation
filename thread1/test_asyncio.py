@@ -28,6 +28,7 @@ async def cor3(loop3):
     loop3.call_soon(callback, 3)
 
     await asyncio.sleep(0.4)
+    # await cor1()
 
 
 def callback(n):
