@@ -56,6 +56,8 @@ sort_bubble         冒泡排序 , 两个for循环加一个if判断 .  时间复
 
 sort_bubbleShort    短冒泡排序, 时间复杂度为O（n^2）, 与sort_bubble比较 --> 减少了比较次数,交换次数未变
 
+sort_heap           堆排序, 最大堆
+
 sort_insertion      插入排序, 取出值,放到合适位置, 时间复杂度为O（n^2）. 与sort_bubble比较 --> 减少了比较次数,交换次数未变
 
 sort_merge          归并排序, divide and conquer strategy, 时间复杂度为O(nlogn). split + merge
