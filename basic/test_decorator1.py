@@ -19,8 +19,9 @@ def dec1(func):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         print("2222")
-        func(*args, **kwargs)
+        f = func(*args, **kwargs)
         print("3333")
+        return f
 
     return wrapper
 
@@ -31,8 +32,9 @@ def dec2(func):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         print("bbbb")
-        func(*args, **kwargs)
+        f = func(*args, **kwargs)
         print("cccc")
+        return f
 
     return wrapper
 
@@ -45,8 +47,8 @@ def dec3(text):
         def wrapper(*args, **kwargs):
             print('mmmm')
             print(text)
-            func(*args, **kwargs)
             print('nnnn')
+            return func(*args, **kwargs)
 
         return wrapper
 
@@ -69,7 +71,7 @@ def test2():
 
 test1()
 print('\t')
-test1()
+# test1()
 # print('\t')
 # test2()
 # print('\t')
