@@ -7,6 +7,8 @@ Systematic learning of basic python knowledge
 
 ## algorithm : 基础数据结构和算法
 
+## basic : 基础
+
 ## recursion : 递归
 
 ## design : 设计模式
@@ -67,6 +69,14 @@ sort_selection      选择排序, 每次找出最大数的位置, 将最大数�
 sort_shell          希尔排序, 将序列分为几个区域来提升插入排序的效率, 时间复杂度为O（n^2）. 注意步长选择
 
 test_list           创建list的4个操作, 时间对比 . concatenation, append, comprehension, list range
+
+
+
+## basic : 基础
+
+test_decorator1     装饰器. 注意多个装饰的编译顺序和次数, 执行顺序, 带参装饰器
+
+test_decorator2     装饰器 : 类装饰器在类中方法的使用--线程锁
 
 
 
