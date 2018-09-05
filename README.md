@@ -62,7 +62,7 @@ sort_insertion      插入排序, 取出值,放到合适位置, 时间复杂度�
 
 sort_merge          归并排序, divide and conquer strategy, 时间复杂度为O(nlogn). split + merge
 
-sort_quick          快速排序, 分治算法.  平均时间复杂度为O（n×log（n）），最糟糕时复杂度为O（n^2）
+sort_quick          快速排序, 分治算法.  平均时间复杂度为O（n×log（n）），最糟糕时复杂度为O（n^2）, 注意优化
 
 sort_quick1         快速排序, 分治算法1.  优化, 注意while里的一点区别
 
