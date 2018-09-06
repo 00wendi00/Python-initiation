@@ -80,6 +80,8 @@ test_decorator1     装饰器. 注意多个装饰的编译顺序和次数, 执�
 
 test_decorator2     装饰器 : 类装饰器在类中方法的使用--线程锁
 
+test_extend         多继承, 基类的方法名相同时的执行情况
+
 
 
 ## recursion : 递归
