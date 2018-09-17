@@ -94,6 +94,8 @@ giveChange          找零钱问题
 
 Hanoi_tower         盘杆难题 Tower of Hanoi
 
+KochSnow            科赫雪花
+
 Pascal_triangle     帕斯卡三角, 杨辉三角
 
 Sierpinski          谢尔宾斯基三角形
